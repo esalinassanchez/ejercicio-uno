@@ -30,3 +30,6 @@ jobs:
       env:
         PYTHONPATH: src
       run: pytest src/tests.py
+
+    - name: Test con Ruff      
+      run: ruff check .
