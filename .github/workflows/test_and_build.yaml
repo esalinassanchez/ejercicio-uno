@@ -29,4 +29,4 @@ jobs:
       # working-directory: src
       env:
         PYTHONPATH: src
-      run: pytest test.py
+      run: pytest src/test.py
